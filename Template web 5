@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Web 5</title>
+</head>
+
+<body>
+
+
+<div class="container">
+	<div class="header">
+		<div class="logo">
+			<a href="index.html"><img src="img/logo.png" alt="logo"></a>
+		</div>
+		<div class="nav">
+			<ul>
+						<li>
+							<a href="https://tracy14.micromediaweb.com/web5/index.html">Layout
+								<span></span><span></span><span></span><span></span></a>
+						</li>
+						<li>
+							<a href="">Project Layout
+								<span></span><span></span><span></span><span></span></a>
+						</li>
+						<li>
+							<a href="">Client
+								<span></span><span></span><span></span><span></span></a>
+						</li>
+						<li>
+							<a href="">Contact
+								<span></span><span></span><span></span><span></span></a>
+						</li>
+			</ul>
+		</div>
+	</div>
+
+	<h1>Greetings Readers</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum commodi enim, voluptas labore sequi quae vero ipsam
+		sunt quaerat ipsum repellendus vitae odit debitis, in nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+		Nostrum commodi enim, voluptas labore sequi quae vero ipsam sunt quaerat ipsum repellendus vitae odit debitis, in
+		nobis.</p>
+
+	<div>
+		<img src="https://via.placeholder.com/600x400">
+	</div>
+
+	<div class="other">
+		<img src="https://via.placeholder.com/400x300">
+		<img src="https://via.placeholder.com/400x300" class="thing">
+		<img src="https://via.placeholder.com/400x300">
+		<span class="stretch"></span>
+	</div>
+
+	
+	<div class="footer">
+		<p>© Tracy Lam 2024 </p>	
+	</div>
+
+</body>
+</html>
