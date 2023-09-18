@@ -1,0 +1,12 @@
+.nav {
+    padding: 100px;
+    margin: 100px;
+}
+
+.word { 
+    padding-right: 100px;
+}
+
+.other{
+    display: inline-block;
+}

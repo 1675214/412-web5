@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+header{
+    justify-content:space-between;    
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    font-family: condor;
+    font-size: 20px;
+}
+
+nav {
+    background-color: #AA998F;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    display: flex;
+}
+
+ul li span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: #ffbc5394;
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) -1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) -1) * 0.1s);
+    x-index: -1;
+}
+
+ul li a:hover {
+    color: black;
+}
+
+ul li a:hover span {
+    transform: translateY(0) scale(2);
+}
+
+ul li a span:nth-child(1) {
+    --n 1;
+}
+
+ul li a span:nth-child(2) {
+    --n: 2;
+
+}
+
+ul li a span:nth-child(3) {
+    --n: 3;
+}
+
+
+.stuff {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+
+.word{
+    padding-right:  200px;
+}
+
+.other{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+   display: inline-block;
+}
+
+.thing{
+    padding-left: 40px;
+    padding-right: 40px;
+}
